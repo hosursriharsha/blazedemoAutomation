@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Blaze Demo" parallel="tests" verbose="1">
+	<test name="BlazeDemo">
+	<parameter name = "browser" value="Chrome"/> 
+		<packages>
+			<package name="com.blazedemo.base.*" />
+		</packages>
+	</test>
+</suite>

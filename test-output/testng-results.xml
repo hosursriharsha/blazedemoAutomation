@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Blaze Demo" duration-ms="13388" started-at="2020-09-08T17:26:48Z" finished-at="2020-09-08T17:27:02Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.blazedemo.base.Runner@66480dd7]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="BlazeDemo" duration-ms="13388" started-at="2020-09-08T17:26:48Z" finished-at="2020-09-08T17:27:02Z">
+      <class name="com.blazedemo.base.BaseClass">
+        <test-method status="PASS" signature="getBrowser(org.testng.ITestContext)[pri:0, instance:com.blazedemo.base.BaseClass@4e1d422d]" name="getBrowser" is-config="true" duration-ms="32" started-at="2020-09-08T17:26:48Z" finished-at="2020-09-08T17:26:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@631330c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getBrowser -->
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.blazedemo.base.BaseClass@4e1d422d]" name="launchBrowser" is-config="true" duration-ms="5678" started-at="2020-09-08T17:26:48Z" finished-at="2020-09-08T17:26:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+      </class> <!-- com.blazedemo.base.BaseClass -->
+      <class name="com.blazedemo.base.Runner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.blazedemo.base.Runner@66480dd7]" name="setUpClass" is-config="true" duration-ms="704" started-at="2020-09-08T17:26:54Z" finished-at="2020-09-08T17:26:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.blazedemo.base.Runner@66480dd7]" name="runScenario" duration-ms="2919" started-at="2020-09-08T17:26:55Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-08T17:26:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify City Selected"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[This feature verfies ticket booking scenarios]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.blazedemo.base.Runner@66480dd7]" name="runScenario" duration-ms="4015" started-at="2020-09-08T17:26:58Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-09-08T17:27:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify ticket Purchase"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[This feature verfies ticket booking scenarios]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.blazedemo.base.Runner@66480dd7]" name="tearDownClass" is-config="true" duration-ms="24" started-at="2020-09-08T17:27:02Z" finished-at="2020-09-08T17:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.blazedemo.base.Runner -->
+    </test> <!-- BlazeDemo -->
+  </suite> <!-- Blaze Demo -->
+</testng-results>

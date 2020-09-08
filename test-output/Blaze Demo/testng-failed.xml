@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Blaze Demo]" parallel="tests">
+  <test thread-count="5" name="BlazeDemo(failed)" parallel="tests">
+    <parameter name="browser" value="Chrome"/>
+    <classes>
+      <class name="com.blazedemo.base.Runner">
+        <methods>
+          <include name="runScenario" invocation-numbers="0 1"/>
+          <include name="tearDownClass"/>
+          <include name="setUpClass"/>
+        </methods>
+      </class> <!-- com.blazedemo.base.Runner -->
+    </classes>
+  </test> <!-- BlazeDemo(failed) -->
+</suite> <!-- Failed suite [Blaze Demo] -->
